@@ -1,4 +1,6 @@
-package com.learnyrics;
+package com.learnyrics.activity;
+
+import com.learnyrics.R;
 
 import android.os.Bundle;
 import android.app.Activity;

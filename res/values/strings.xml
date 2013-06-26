@@ -4,5 +4,6 @@
     <string name="app_name">Learnyrics</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="title_activity_current_music_track_info">CurrentMusicTrackInfo</string>
 
 </resources>
