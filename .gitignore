@@ -1,5 +1,8 @@
 # Compiled path
 bin/*
 
+# Generated Files
+gen/*
+
 # Temp files
 *~
