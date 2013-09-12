@@ -8,6 +8,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.util.Log;
+import android.widget.*;
 
 public class MusicDetecterActivity extends Activity {
 	public static final String SERVICECMD = "com.android.music.musicservicecommand";
@@ -38,6 +39,9 @@ public class MusicDetecterActivity extends Activity {
 			String album = intent.getStringExtra("album");
 			String track = intent.getStringExtra("track");
 			Log.i("Music",artist+":"+track);
+			Toast.makeText(MusicDetecterActivity.this,track,Toast.LENGTH_SHORT).show(); 
+			TextView textView = (TextView) findViewById(R.id.musicname);
+			textView.setText(artist+":"+track);
 		}
 	};
 }
